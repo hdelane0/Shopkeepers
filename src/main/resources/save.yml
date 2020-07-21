@@ -1,0 +1,2133 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 2|2567
+'9':
+  uniqueId: d7643012-4d05-4fe0-9b16-d8d6df1b644b
+  name: Kevin
+  world: Crunchbone
+  x: 184
+  y: 70
+  z: -3313
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: FARMER
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BEETROOT
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BEETROOT_SOUP
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BREAD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COOKIE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BREAD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CAKE
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BROWN_MUSHROOM
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: MUSHROOM_STEW
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BEETROOT_SOUP
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SUSPICIOUS_STEW
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: MUSHROOM_STEW
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SUSPICIOUS_STEW
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BAKED_POTATO
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POISONOUS_POTATO
+'13':
+  uniqueId: 1afa3409-3537-4e93-b59a-213036900ac4
+  name: Darles Chickens
+  world: Crunchbone
+  x: 175
+  y: 70
+  z: -3313
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: FISHERMAN
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: KELP
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TURTLE_EGG
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WATER_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TROPICAL_FISH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Nemo
+'14':
+  uniqueId: 88db48c4-35ae-478b-81a3-93d40e3f968d
+  name: Shingles
+  world: Crunchbone
+  x: 173
+  y: 70
+  z: -3313
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: FLETCHER
+    villagerType: SAVANNA
+    villagerLevel: 2
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:healing
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_healing
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:fire_resistance
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_fire_resistance
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:invisibility
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_invisibility
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:leaping
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_leaping
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:swiftness
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_swiftness
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:regeneration
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_regeneration
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_strength
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_strength
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:slow_falling
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_slow_falling
+    '9':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:water_breathing
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_water_breathing
+    '10':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_harming
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_harming
+    '11':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_poison
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_poison
+    '12':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:slowness
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_slowness
+    '13':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:weakness
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_weakness
+    '14':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:turtle_master
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TIPPED_ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_turtle_master
+'16':
+  uniqueId: 46808d0a-aa0f-4b8b-8226-ea8d8f742939
+  name: Class T1T5
+  world: Crunchbone
+  x: 200
+  y: 70
+  z: -3310
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: BUTCHER
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: APPLE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_BLOCK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_APPLE
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_APPLE
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_GOLDEN_APPLE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COOKED_CHICKEN
+        amount: 3
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COOKED_RABBIT
+        amount: 3
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BEEF
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+'17':
+  uniqueId: e8edfab0-d912-45ce-a859-037247e92482
+  name: Loh Yeh Moh Yeh
+  world: Crunchbone
+  x: 204
+  y: 70
+  z: -3303
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: ARMORER
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_HELMET
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_CHESTPLATE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_LEGGINGS
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_BOOTS
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_INGOT
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SHIELD
+'18':
+  uniqueId: 4b455a68-2113-45fa-8792-73db34704857
+  name: Carl
+  world: Crunchbone
+  x: 193
+  y: 70
+  z: -3304
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SUGAR
+        amount: 4
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 2
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: FLOWER_BANNER_PATTERN
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 2
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GLOBE_BANNER_PATTERN
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SKULL_BANNER_PATTERN
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CREEPER_BANNER_PATTERN
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: MOJANG_BANNER_PATTERN
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ITEM_FRAME
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: PAINTING
+'19':
+  uniqueId: 591d2d4c-2497-412d-b1b3-39bd8a8fd47e
+  name: B00B5
+  world: Crunchbone
+  x: 201
+  y: 70
+  z: -3312
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: LEATHERWORKER
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SADDLE
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER_HORSE_ARMOR
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER_HELMET
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER_CHESTPLATE
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER_LEGGINGS
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER_BOOTS
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ROTTEN_FLESH
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 2
+'20':
+  uniqueId: b3c7f2cd-17a2-4ce6-821f-a2519e7e70f9
+  name: BeeseChurger
+  world: Crunchbone
+  x: 191
+  y: 70
+  z: -3304
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: LIBRARIAN
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DIG_SPEED: 5
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DURABILITY: 3
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOOT_BONUS_BLOCKS: 3
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            VANISHING_CURSE: 1
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_FIRE: 4
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_FALL: 4
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_EXPLOSIONS: 4
+    '9':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_PROJECTILE: 4
+    '10':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            OXYGEN: 3
+    '11':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            WATER_WORKER: 1
+    '12':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            THORNS: 3
+    '13':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DEPTH_STRIDER: 3
+    '14':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            FROST_WALKER: 2
+    '15':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            BINDING_CURSE: 1
+    '16':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DAMAGE_UNDEAD: 5
+    '17':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DAMAGE_ARTHROPODS: 5
+    '18':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            KNOCKBACK: 2
+    '19':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOOT_BONUS_MOBS: 3
+    '20':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SWEEPING_EDGE: 3
+    '21':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_KNOCKBACK: 2
+    '22':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_FIRE: 1
+    '23':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_INFINITE: 1
+    '24':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOYALTY: 3
+    '25':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            IMPALING: 5
+    '26':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            RIPTIDE: 3
+    '27':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            CHANNELING: 1
+    '28':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 6
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            QUICK_CHARGE: 3
+'22':
+  uniqueId: 87815c77-f6eb-4830-8d2d-2a7aebbe58aa
+  name: Vinh
+  world: Crunchbone
+  x: 183
+  y: 70
+  z: -3303
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: NITWIT
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHEAT_SEEDS
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHEAT_SEEDS
+        amount: 6
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Completely and Utterly Useless
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHEAT_SEEDS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Completely and Utterly Useless
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CACTUS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Yandere
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHEAT_SEEDS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Completely and Utterly Useless
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SEA_PICKLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Hentai ASMR
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHEAT_SEEDS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Completely and Utterly Useless
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: DEAD_BUSH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Hitler Mustache
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHEAT_SEEDS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Completely and Utterly Useless
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WITHER_ROSE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Belle Delphine
+'23':
+  uniqueId: 80bd2d62-d9e2-4248-a862-b458cd61abb3
+  name: Moby
+  world: Crunchbone
+  x: 184
+  y: 70
+  z: -3303
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: SHEPHERD
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BONE_MEAL
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WOLF_SPAWN_EGG
+        amount: 5
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BONE_MEAL
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CAT_SPAWN_EGG
+        amount: 5
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SHEARS
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WHITE_WOOL
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BLOCK
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NAME_TAG
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BLOCK
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEAD
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BLOCK
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COMPASS
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BLOCK
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CLOCK
+'24':
+  uniqueId: 6dfd72cc-0efe-47c0-98e6-fef56532d595
+  name: Fish Fingers
+  world: Crunchbone
+  x: 205
+  y: 70
+  z: -3303
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: MASON
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: DIORITE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POLISHED_DIORITE
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ANDESITE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POLISHED_ANDESITE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GRANITE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: POLISHED_GRANITE
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SANDSTONE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SMOOTH_SANDSTONE
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: DIAMOND_BLOCK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ENDER_PEARL
+        amount: 16
+'25':
+  uniqueId: 719e18f0-572c-4786-8b0a-f5fe8eb879a4
+  name: McCum Shot
+  world: Crunchbone
+  x: 210
+  y: 70
+  z: -3303
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: WEAPONSMITH
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WOODEN_PICKAXE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_PICKAXE
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WOODEN_AXE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_AXE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WOODEN_SHOVEL
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_SHOVEL
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: STICK
+        amount: 4
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOW
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: STICK
+        amount: 4
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOW
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: STICK
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 16
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: STICK
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 16
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CROSSBOW
+'27':
+  uniqueId: 489320f2-2bc9-4bd6-b55e-b7ba7a6594a0
+  name: Extra Mayo
+  world: Crunchbone
+  x: 212
+  y: 70
+  z: -3304
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: TOOLSMITH
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BLOCK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ANVIL
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHIPPED_ANVIL
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_INGOT
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ANVIL
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: DAMAGED_ANVIL
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_INGOT
+        amount: 48
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ANVIL
+'28':
+  uniqueId: e5e67e4b-d781-4629-b84f-fdec3f1cf6f5
+  name: Simon Cowell
+  world: Crunchbone
+  x: 186
+  y: 70
+  z: -3313
+  type: admin
+  object:
+    type: witch
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SPIDER_EYE
+        amount: 12
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: FERMENTED_SPIDER_EYE
+        amount: 6
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BLAZE_ROD
+        amount: 3
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GLISTERING_MELON_SLICE
+        amount: 6
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_CARROT
+        amount: 6
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: MAGMA_CREAM
+        amount: 5
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GHAST_TEAR
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: DRAGON_BREATH
+        amount: 2
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GHAST_TEAR
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: RABBIT_FOOT
+        amount: 6
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GHAST_TEAR
+    '9':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: NETHER_WART
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: EXPERIENCE_BOTTLE
+    '10':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: STRING
+        amount: 18
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SPIDER_EYE
+        amount: 3
+'29':
+  uniqueId: 95de658e-eaa1-4856-a60e-2b7c6702aa23
+  name: Weapons
+  world: Shop
+  x: -16789
+  y: 49
+  z: -11109
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: ARMORER
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_SWORD
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_SWORD
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_PICKAXE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_PICKAXE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_AXE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_AXE
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_SHOVEL
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_SHOVEL
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_HOE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_HOE
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: FLINT
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ARROW
+        amount: 16
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SUGAR_CANE
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BOOK
+        amount: 8
+'31':
+  uniqueId: d527bdd8-da7c-4ce3-9bf5-bd36d4eb190e
+  name: Armor
+  world: Shop
+  x: -16792
+  y: 49
+  z: -11109
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: WEAPONSMITH
+    villagerType: SAVANNA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_HELMET
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_CHESTPLATE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_LEGGINGS
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LAVA_BUCKET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHAINMAIL_BOOTS
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_HELMET
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_HELMET
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_CHESTPLATE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_CHESTPLATE
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_LEGGINGS
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_LEGGINGS
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_INGOT
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BOOTS
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_BOOTS
+'32':
+  uniqueId: 3cd8644b-04d7-4df4-855f-0a5004067dbd
+  name: Mob Drops
+  world: Shop
+  x: -16794
+  y: 49
+  z: -11109
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: CLERIC
+    villagerType: SWAMP
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ROTTEN_FLESH
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: IRON_BLOCK
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ROTTEN_FLESH
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BREAD
+        amount: 8
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ROTTEN_FLESH
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COOKIE
+        amount: 8
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: ROTTEN_FLESH
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COOKED_PORKCHOP
+        amount: 8
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SPIDER_EYE
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: HONEY_BOTTLE
+        amount: 16
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: APPLE
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLD_BLOCK
+        amount: 2
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: GOLDEN_APPLE
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: FEATHER
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CHICKEN
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: EMERALD
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: EXPERIENCE_BOTTLE
+'33':
+  uniqueId: 45ccc38e-04ec-44e9-bf0c-6d118ee97c14
+  name: Animals and Loots
+  world: Shop
+  x: -16797
+  y: 49
+  z: -11109
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: FARMER
+    villagerType: TAIGA
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SALMON
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CAT_SPAWN_EGG
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COD
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CAT_SPAWN_EGG
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: COD
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SALMON
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: CAT_SPAWN_EGG
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BONE
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WOLF_SPAWN_EGG
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: BONE
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: STICK
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: WOLF_SPAWN_EGG
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SADDLE
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: LEATHER_HORSE_ARMOR
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: TURTLE_EGG
+        amount: 16
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2567
+        type: SCUTE
